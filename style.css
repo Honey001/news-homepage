@@ -115,11 +115,8 @@ body.dimmed .page-overlay {
 	align-items: center;
 	width: 90%;
 }
-.header img:nth-child(2) {
-	cursor: pointer;
-}
-.inner-navBar-container img {
-	cursor: pointer;
+.header button {
+	background-color: transparent;
 }
 .navBar-container {
 	position: fixed;
@@ -144,6 +141,9 @@ body.dimmed .page-overlay {
 	min-height: 20.901rem;
 	display: flex;
 	justify-content: space-between;
+}
+.inner-navBar-container button {
+	max-height: 3rem;
 }
 .navBar-container ul {
 	display: flex;
@@ -320,7 +320,7 @@ hr {
 		display: block;
 	}
 
-	.header img:nth-child(2) {
+	.header button img {
 		display: none;
 	}
 	.title-description-container {

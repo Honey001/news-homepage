@@ -1,5 +1,5 @@
-const navMenuButton = document.querySelector("img[alt='icon-menu']");
-const closeNavMenuButton = document.querySelector("img[alt='icon-menu-close']");
+const navMenuButton = document.getElementById("openMenu");
+const closeNavMenuButton = document.getElementById("closeMenu");
 const navMenu = document.querySelector(".navBar-container");
 
 const displayNavMenu = () => {
