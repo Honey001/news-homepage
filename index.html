@@ -29,10 +29,13 @@
 			<img
 				src="./assets/images/logo.svg"
 				alt="logo" />
-			<img
-				src="./assets/images/icon-menu.svg"
-				alt="icon-menu" />
-
+			<button
+				type="button"
+				aria-label="open-navigation-menu">
+				<img
+					src="./assets/images/icon-menu.svg"
+					alt="icon-menu" />
+			</button>
 			<nav class="navBar-container hidden">
 				<div class="inner-navBar-container">
 					<ul>
@@ -42,11 +45,13 @@
 						<li class="nav-link"><a href="#"> Trending </a></li>
 						<li class="nav-link"><a href="#"> Categories </a></li>
 					</ul>
-					<figure class="icons-container">
+					<button
+						class="icons-container"
+						aria-label="close-navigation-menu">
 						<img
 							src="./assets/images/icon-menu-close.svg"
 							alt="icon-menu-close" />
-					</figure>
+					</button>
 				</div>
 			</nav>
 		</header>
@@ -73,7 +78,11 @@
 								fulfilling its promise?
 							</p>
 
-							<button type="button" aria-label="Read more about web3">Read more</button>
+							<button
+								type="button"
+								aria-label="Read more about web3">
+								Read more
+							</button>
 						</div>
 					</article>
 				</section>
